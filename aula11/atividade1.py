@@ -6,7 +6,7 @@ except ValueError as e:
      print(f'Erro, valor da variável deve ser numérico - {e}')
 
 else:
-     if(nota1 and nota2 >= 0) and (nota1 and nota2 <= 10):
+     if(0 <= nota1 <= 10) and (0 <= nota2 <= 10):
             media = (nota1+nota2)/2
             if media >= 6:
                   print(f'O aluno foi aprovado! A média foi {media:.2f}')
