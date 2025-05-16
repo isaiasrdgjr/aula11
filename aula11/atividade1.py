@@ -11,7 +11,7 @@ else:
             if media >= 6:
                   print(f'O aluno foi aprovado! A média foi {media:.2f}')
      else:
-           print('As notas estão fora do intervalo de 0 a 10')           
+           print('As notas devem estar entre 0 e 10')          
      
 finally:
     print('Fim da execução do programa.')
